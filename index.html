@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="controls">
+            <div class="name-game">
+                <span id="flood">Flood It</span>
+            </div>
+            <div class="move-sign">
+                <span>Moves</span>
+                <span id="move-count"></span>
+            </div>
+            <div class="buttons">
+                <button class="option" id="easy">8x8</button>
+                <button class="option" id="medium">10x10</button>
+                <button class="option" id="hard">12x12</button>
+            </div>
+        </div>
+        <div id="game-board"></div>
+        <div id="color-buttons"></div>
+        <div id="modal-win" title="Вы победили!">
+            <p>Сегодня удача вам улыбнулась</p>
+        </div>
+        <div id="modal-lose" title="Вы проиграли...">
+            <p>Повезет в следующий раз</p>
+        </div>
+    </div>
+</body>
+</html>
